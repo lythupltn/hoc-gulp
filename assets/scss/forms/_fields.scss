@@ -1,0 +1,57 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	-webkit-backface-visibility: hidden;
+}
+
+input[type="search"] {
+	&::-webkit-search-decoration {
+		display: none;
+	}
+	outline: none;
+	height: 41px;
+	box-shadow: none;
+}
+
+select {
+
+}
+
+textarea {
+	box-sizing: border-box;
+	outline: none;
+	height: 41px;
+	box-shadow: none
+}
+.input.is-medium, .textarea.is-medium {
+    font-size: 1rem;
+}
+.no-border{
+	border: none !important;
+}
+.before-none:before{
+	content: none !important;
+}
+a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+    &:hover, &:focus, &:active {
+		text-decoration: none;
+		outline: none;
+		color:#ffb174;
+	}
+}

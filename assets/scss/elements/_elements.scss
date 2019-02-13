@@ -1,0 +1,51 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto',sans-serif;	
+	color: $color__body;
+	line-height: 1.25;
+}
+
+a {
+	color: $color__link;
+}
+
+a:visited {
+
+}
+a:hover,
+a:active {
+	color: $color__link-hover;
+	outline: 0;
+	text-decoration: none;
+}
+
+a:focus {
+	outline: none;
+	text-decoration: underline;
+}
+
+h3{
+	text-transform: uppercase;
+	padding-bottom: 24px;
+	font-weight: 700;
+}
+@import "lists";
+
+img {
+	height: auto;
+	max-width: 100%;
+	position: relative;
+}
+
+figure {
+	margin: 0;
+}
+@import "tables";

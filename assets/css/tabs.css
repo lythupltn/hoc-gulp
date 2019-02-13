@@ -1,0 +1,14 @@
+.tabs {
+margin-bottom: -1px !important;
+position: relative;
+}
+.tab-content {
+padding: 60px;
+}
+.tab-pane {
+display: none;
+}
+.tab-pane.is-active {
+display: block;
+position: relative;
+}

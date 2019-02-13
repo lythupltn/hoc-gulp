@@ -1,0 +1,111 @@
+body {
+  font-family: 'Roboto',sans-serif;
+  color: #262e40;
+  line-height: 1.25; }
+
+a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff; }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+    color: #ffb174; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+h3 {
+  text-transform: uppercase;
+  padding-bottom: 24px;
+  font-weight: 700; }
+
+.hover-blue, .view-all:hover {
+  color: #00bad8; }
+
+.time-style {
+  font-size: 12px;
+  color: #aaa;
+  padding-top: 5px; }
+
+.border-bottom {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 23px; }
+
+.no-border {
+  border: none !important; }
+
+.before-none:before {
+  content: none !important; }
+
+.author {
+  font-size: 14px;
+  font-weight: 700;
+  color: #00bad8; }
+
+.date, .view {
+  color: #aaa; }
+
+.input, .textarea {
+  box-shadow: none;
+  height: 41px;
+  outline: none; }
+
+.input.is-active, .input.is-focused, .input:active, .input:focus, .textarea.is-active, .textarea.is-focused, .textarea:active, .textarea:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+  outline: none !important; }
+
+.active {
+  color: #1af0f1; }
+
+.input.is-medium, .textarea.is-medium {
+  font-size: 1rem; }
+
+.view-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  width: 180px;
+  height: 48px;
+  line-height: 1.25;
+  background-color: #151d28;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  margin: auto;
+  margin-top: 5px;
+  transform: translateY(-60%); }
+
+.pdl-0 {
+  padding-left: 0 !important; }
+
+.owl-dots {
+  display: none; }
+
+.owl-nav button.owl-prev {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  color: white;
+  width: 20px;
+  border: none;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  z-index: 2;
+  font-size: 20px; }
+
+.owl-nav button.owl-next {
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  color: white;
+  width: 20px;
+  border: none;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  z-index: 2;
+  font-size: 20px; }

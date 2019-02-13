@@ -1,0 +1,52 @@
+.main-content-top {
+  background-color: #151d28; }
+  .main-content-top .main-content-top-section-1 {
+    display: flex; }
+    .main-content-top .main-content-top-section-1 img {
+      width: 100%;
+      height: auto; }
+  .main-content-top .section-2 {
+    background-color: #192433; }
+    .main-content-top .section-2 .banner {
+      margin: 0 3px; }
+      .main-content-top .section-2 .banner .technology1 {
+        margin: 0 4px;
+        background-color: #151d28;
+        padding: 0; }
+        .main-content-top .section-2 .banner .technology1 a {
+          text-transform: capitalize;
+          font-size: 20px;
+          line-height: 26px;
+          color: #fff; }
+          .main-content-top .section-2 .banner .technology1 a:hover {
+            color: #1affff; }
+          .main-content-top .section-2 .banner .technology1 a h3 {
+            text-transform: capitalize;
+            font-weght: 600;
+            letter-spacing: -0.001em;
+            padding: 0 0 0 25px; }
+          .main-content-top .section-2 .banner .technology1 a p {
+            padding: 0 0 20px 25px;
+            color: #05bad6;
+            font-weight: 700;
+            font-size: 13px;
+            margin-top: 12px;
+            text-transform: capitalize; }
+          .main-content-top .section-2 .banner .technology1 a span {
+            color: #aaa;
+            font-weight: 300; }
+            .main-content-top .section-2 .banner .technology1 a span:before {
+              content: "-";
+              color: #aaa; }
+    .main-content-top .section-2 .banner.banner-bt {
+      margin: 0px;
+      padding: 20px 20px 0 20px; }
+      .main-content-top .section-2 .banner.banner-bt .technology1 {
+        margin: 10px;
+        background-color: transparent; }
+        .main-content-top .section-2 .banner.banner-bt .technology1 a {
+          font-size: 17px; }
+          .main-content-top .section-2 .banner.banner-bt .technology1 a h3 {
+            padding: 0; }
+          .main-content-top .section-2 .banner.banner-bt .technology1 a p {
+            padding: 0 0 20px 0px; }
