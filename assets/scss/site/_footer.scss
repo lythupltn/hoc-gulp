@@ -21,17 +21,17 @@
 		}
 	}
 	.midium-footer{
-		background-color: #192433;
+		background-color: $color-dark-2;
 		padding: 20px 10px;
 		h6{
 			text-transform: capitalize;
 			font-size: 14px;
 			font-weight: 700;
-			color: #fff;
+			color: $color-light-0;
 			padding:15px 0;
 		}
 		a{
-			color: #aaa;
+			color: $color-light-2;
 			font-size: 13px;
 			i{
 				padding-right: 5px;
@@ -39,15 +39,15 @@
 			}
 			&:hover{
 					text-decoration: underline;
-					color: #fff;
+					color: $color-light-0;
 				};
 		}
 	}
 	.bottom-footer{
-		background-color: #192433;
-		border-top: 2px solid #151d28;
+		background-color: $color-dark-2;
+		border-top: 2px solid $color-dark-1;
 		font-size: 11px;
-		color: #aaa;
+		color: $color-light-2;
 		padding: 10px 10px;
 		.info-footer{
 			display: flex;

@@ -1,0 +1,89 @@
+.tab-slider{
+	padding-top:50px;
+	background-color: #eeeeee;
+	.tab-slider__discussion{
+		background-color: $color-light-0;
+		border-top: 5px solid #121821 ;
+		padding-bottom: 25px;
+		padding:10px 13px;
+		margin: 0 0 0 22px;
+		.discussion-item{
+			h3{
+				padding: 3px 0 15px;
+				border-bottom: 1px solid $color-light-2;
+				margin-bottom: 10px;
+			}
+			.item-description{
+				color: $color-dark-0;
+				font-weight: 700;
+				font-size: 15px;
+				line-height: 1.6;
+				padding-top: 5px;
+				&:hover{
+					@extend .hover-blue;
+				}
+			}
+		}	
+		.item-date{
+			background-color: #192433;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 13px;
+			display: flex;
+			justify-content: center;
+			padding: 5px 0;
+			letter-spacing: -0.05em;
+			margin: 18px 0 3px;
+			span{
+				color: #36a11b;
+				i{
+					padding: 0 4px;
+				}
+
+			}
+		}
+	}
+	.tabs-bg{
+		background-color: hsla(222,25%,20%,1);
+		.tabs{
+			background-color: hsl(216,31%,10%);
+			font-size: 15px;
+			font-weight: 700;
+			li{
+				span{
+					padding: 10px;
+				}
+				
+			}
+			li.is-active{
+				a{
+					color: hsla(180,100%,55%,1);
+					border-bottom-color: hsla(180,100%,55%,1);
+				}
+			} 
+		}
+		.tab-content {
+			padding: 40px 10px;
+			h3{
+				font-size: 13px;
+				text-transform: lowercase;
+				padding: 10px 5px;
+				color: $color-light-1;
+			}
+			.item{
+				background-color: hsl(214,32%,12%);
+				padding-bottom: 10px;
+				width: 100%;
+				.author{
+					font-size: 12px;
+					padding-left: 5px;
+				}
+				.view{
+
+					font-size: 11px;
+				}
+			}
+			
+		}
+	}
+}

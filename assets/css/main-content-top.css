@@ -1,8 +1,8 @@
 .main-content-top {
   background-color: #151d28; }
-  .main-content-top .main-content-top-section-1 {
+  .main-content-top .img-banner {
     display: flex; }
-    .main-content-top .main-content-top-section-1 img {
+    .main-content-top .img-banner img {
       width: 100%;
       height: auto; }
   .main-content-top .section-2 {

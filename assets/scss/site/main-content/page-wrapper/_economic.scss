@@ -1,0 +1,46 @@
+.economic{
+	padding: 25px 0px 25px 25px;
+	overflow: hidden;
+	display: block;
+	.economic-sidebar{
+		.economic-item{
+			background-color: $color-light-0;
+			border-top: 6px solid #121821 ;
+			padding: 10px 12px 40px 12px;
+			h3{
+				padding: 3px 0 15px;
+				border-bottom: 1px solid $color-light-2;
+			}
+			.item-game{
+				a{
+					p:first-child{
+						color: $color-dark-0;
+						font-weight: 700;
+						font-size: 15px;
+						line-height: 1.25;
+						padding-top: 23px;
+						&:hover{
+							@extend .hover-blue;
+						};
+						
+					}
+					p:last-child{
+						@extend .time-style;
+						@extend .border-bottom;
+					}
+				}
+			}
+		}	
+	}
+    .economic-main{
+        background-color: $color-light-0;
+        padding: 25px;
+        a{
+            color: $color-dark-0;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 3;
+            padding-left: 15px;
+        }
+    }
+} /* economic */

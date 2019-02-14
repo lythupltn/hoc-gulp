@@ -86,11 +86,11 @@ div{
         .main-content-section-0{
             display: none;
         }
-        .main-content-midium{
-            .section-3{
-                .section3c4{
-                    .section3c4-body{
-                        .all-section3c4-body{
+        .page-wrapper{
+            .featured{
+                .featured-sidebar{
+                    .featured-sidebar-body{
+                        .featured-sidebar-item{
                             img{
                                 height: auto;
                             }
@@ -100,17 +100,17 @@ div{
             }
 
 
-            .section-7{
+            .help-question {
                 display: none;
             } 
-            .section-9{
+            .history{
 
-                .tt9{
+                .history-info{
                     padding: 20px;
                     font-size: 14px;
                 }
-                .section9c8{
-                    .section9c81{
+                .history-main{
+                    .event-economic{
                         margin-left: 0px;
                     }
                 }
@@ -169,13 +169,13 @@ div{
 
     /* main-content */
     .main-content{
-        .main-content-top{
-            .main-content-top-section-1{
+        .banner{
+            .banner-img{
                 display: none;
             }
-            .section-2 {
-                .banner{
-                    .technology1{
+            .banner-newsletter {
+                .banner-newsletter-item{
+                    .newsletter-item__technology{
                         a{
                             font-size: 14px;
                             line-height: 16px;
@@ -188,10 +188,10 @@ div{
                         }
                     }
                 }
-                .banner.banner-bt{
+                .banner-newsletter-item.banner-newsletter-item-bt{
                     margin: 0px;
                     padding: 20px 5px 0 5px;  
-                    .technology1{
+                    .newsletter-item__technology{
                         margin: 10px;
                         background-color: transparent;
                         a{
@@ -208,18 +208,18 @@ div{
                 }
             }
         } 
-        .main-content-midium{
-            .section-3 {
-                .section3c4{
+        .page-wrapper{
+            .featured {
+                .featured-sidebar{
                    padding: 35px 15px 0px 15px;
                 }
-                .section3c8-bg{
+                .featured-main{
                    margin: 0 15px;
-                   .section3c8{
+                   .featured-main-box{
                         padding: 15px;
-                        .section3c8-top { 
+                        .box-help { 
                             padding-bottom: 10px;
-                            .ch-content{
+                            .box-help-content{
                                 padding:0 15px;
                                 a{  
                                     font-size: 14px;
@@ -243,10 +243,10 @@ div{
                                 }
                             }   
                         }
-                        .section3c8__news{
+                        .featured-news{
                             .column.is-4{
                                 padding: 15px 0;
-                                .tt{
+                                .featured-news-tt{
                                     padding:15px 0;
                                     border-bottom: 1px solid #eee;
                                     z-index: 3;
@@ -275,21 +275,21 @@ div{
                    }
                 }
             }
-            .section-4{
+            .tab-slider{
                 padding: 0;
-                .section4c3{
+                .tab-slider__discussion{
                     margin: 3px;
                 }
             }
-            .section-5{
+            .wrap-item{
                  margin: 5px 3px;
             }
-            .section-6{
+            .tag-trending{
                 margin: 5px 3px;
             }
-            .section-8{
+            .economic{
                 padding: 5px 3px;
-                .section8c9{
+                .economic-main{
                     background-color: #fff;
                     a{
                         color: #000;
@@ -300,13 +300,13 @@ div{
                     }
                 }
             }
-            .section-9{
+            .history{
                 padding:  10px 3px;
-                .tt9{
+                .history-info{
                     padding-left: 0px;
                 }
-                .section9c8{
-                    .section9c81{
+                .history-main{
+                    .event-economic{
                         margin: 10px;
                         padding: 10px;
                     }
@@ -346,11 +346,11 @@ div{
             }
         }   
     }
-    .section-9{
-        .tt9-tt{
+    .history{
+        .history-info-discription{
             font-size: 12px;
         }
-        .tt9-view{
+        .history-info-view{
             font-size: 11px;
         }
     }

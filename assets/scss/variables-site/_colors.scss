@@ -3,7 +3,37 @@
 $color__body:  #262e40;
 $bgr-top:#8c0014;
 $bgr-midium:#790014;
-
+$color-dark-0: hsl(216,31%,10%);
+$color-dark-1: hsl(214,32%,12%);
+$color-dark-2: hsl(215,34%,15%);
+$color-dark-3: hsla(0,0%,10%,1);
+$color-light-0: hsla(0,0%,100%,1);
+$color-light-1: hsla(0,0%,90%,1); 
+$color-light-2: hsla(0,0%,67%,1); 
+$color-light-3: hsla(222,25%,20%,1);
+$color-accent-dark: hsla(188,100%,42%,1);
+$color-accent-light: hsla(180,100%,55%,1);
+$color-hero-strip: hsl(215,31%,24%);
+$color-link: #09558a;
+$color-verified-badge: #3a76c0;
+$color-trending-topic-1: hsl(215,46%,33%);
+$color-trending-topic-2: hsl(168,37%,29%);
+$color-alert-badge: #e03030;
+$color-secondary: hsla(108,71%,37%,1);
+$color-light-background-box: #f2f3f5;
+$color-light-border-box: #e6e8ea;
+$color-light-action-box-text: #757575;
+$color-error: red;
+$color-rank-badge: #f6b142;
+$color-fill-0: hsla(220,20%,97%,1);
+$color-fill-1: hsla(220,53%,97%,1);
+$color-facebook: hsla(221,46%,48%,1);
+$color-progress-bar-light: #17D1B3;
+$color-hero-light: #39F1E9;
+$color-post: #eff1f3;
+$color-tet-gold: #ffb174;
+$color-tet-dark-red: #790014;
+$color-tet-light-red: #8c0014;
 
 // Links
 $color__link: #fff;
@@ -11,29 +41,29 @@ $color__link-visited: #0073aa;
 $color__link-hover: #ffb174;
 
 .hover-blue{
-	color: #00bad8;
+	color: $color-accent-light;
 }
 .time-style{
 	font-size: 12px;
-	color: #aaa;
+	color: $color-light-2;
 	padding-top: 5px;
 }
 .border-bottom{
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid $color-light-2;
 	padding-bottom: 23px;
 }
 
 .author{
 	font-size: 14px;
 	font-weight: 700;
-	color: #00bad8;
+	color: $color-accent-dark;
 }
 .date, .view{
-	color: #aaa;
+	color: $color-light-2;
 }
 
 .active{
-	color: #1af0f1;
+	color: $color-accent-light;
 }
 .pdl-0{
 	padding-left: 0 !important;

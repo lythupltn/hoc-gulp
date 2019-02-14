@@ -1,0 +1,77 @@
+.history{
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	padding: 35px 0px 35px 35px;
+	.history-sidebar{
+		background-color: $color-light-0;
+		padding: 15px;
+		border-top: 6px solid #121821 ;
+		margin-right: 15px;
+		font-size: 12px;
+		h3{
+			border-bottom: 1px solid $color-light-2;
+			padding: 3px 0 15px;
+			margin-bottom: 10px;
+		}
+		.history-sidebar-item{
+			padding-top: 10px;
+			@extend .border-bottom;
+			.history-info{
+				padding-top: 13px;
+				padding-bottom: 15px;
+
+				.history-info-date{
+				width: 80px;
+				height: 25px;
+				border-radius: 25px;
+				background-image: linear-gradient(-135deg, #1affff 0%, #05c8de 100%);
+				text-align: center;
+				color: $color-dark-0;
+				line-height: 2.2;
+				}
+				.history-info-discription{
+					color: $color-dark-0;
+					letter-spacing: 0.03em;
+					line-height: 1.5;
+					padding-top: 13px;
+					&:hover{
+						@extend .hover-blue;
+					};
+				}
+				.history-info-view{
+					color: $color-light-1;
+					line-height: 1.5;
+					letter-spacing: 0.02em;
+					padding-top: 5px;
+				}
+			}
+		}
+	}
+	.history-main{
+		.event-economic{
+			background-color: $color-light-0;
+			margin-left: 10px;
+			padding: 25px 35px 45px 25px;
+			.event-date{
+				h6{
+					color: $color-accent-dark;
+					font-weight: 700;
+					font-size: 15px;						
+				}
+			}
+			.event-info{
+				h6{
+					font-weight: 700;
+					color: $color-dark-0;
+					&:hover{
+						@extend .hover-blue;
+					};
+				}
+				p{
+					font-size: 13px;
+				}
+			}
+		}
+	}
+} /* history */

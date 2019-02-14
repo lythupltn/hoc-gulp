@@ -1,0 +1,30 @@
+.tag-trending{
+	background-color: $color-dark-2; 
+	margin: 10px 0px 10px 25px;
+	h3{
+	 	padding: 8px;
+	 	color: $color-accent-light;
+	 	background-color: $color-dark-3;
+	}
+	.tag-trending-content {
+		padding:15px;
+	    .tag-trending-item{
+	    	position: relative;
+	    	.tag-hot{
+				position: absolute;
+				bottom: 12%;
+				left: 5%;
+				padding: 5px;
+				background-color: red;
+				background-image: linear-gradient(-135deg, #17EAD9 0%, #6078EA 100%);
+				color: $color-light-0;
+				font-weight: 700;
+				font-size: 20px;
+	    	}
+	    	img{
+	    		width: 100%;
+	    	}
+	    }
+	}
+
+}
