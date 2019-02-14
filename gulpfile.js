@@ -41,7 +41,7 @@ gulp.task('useref', function(){
     .pipe(gulpIf('*.js', uglify()))
     // Minifies only if it's a CSS file
     .pipe(gulpIf('*.assets', cssnano()))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('assets/dist'))
 });
 
 gulp.task('images', function(){
@@ -50,16 +50,16 @@ gulp.task('images', function(){
       // Setting interlaced to true
       interlaced: true
     }))
-  .pipe(gulp.dest('dist/images'))
+  .pipe(gulp.dest('assets/dist/images'))
 });
 
 gulp.task('fonts', function() {
   return gulp.src('assets/fonts/**/*')
-  .pipe(gulp.dest('dist/fonts'))
+  .pipe(gulp.dest('assets/dist/fonts'))
 })
 
 gulp.task('clean:dist', function() {
-  return del.sync('dist');
+  return del.sync('assets/dist');
 })
 
 gulp.task('cache:clear', function (callback) {
