@@ -3,6 +3,9 @@
 	display: inline-block;
 	width: 100%;
 	padding: 35px 0px 35px 35px;
+	@include mobileL {
+	    padding: 10px 3px;
+	}
 	.history-sidebar{
 		background-color: $color-light-0;
 		padding: 15px;
@@ -20,7 +23,13 @@
 			.history-info{
 				padding-top: 13px;
 				padding-bottom: 15px;
-
+				@include tablet {
+				    padding: 20px;
+                    font-size: 14px;
+				}
+				@include mobileL {
+				    padding-left: 0;
+				}
 				.history-info-date{
 				width: 80px;
 				height: 25px;
@@ -35,6 +44,9 @@
 					letter-spacing: 0.03em;
 					line-height: 1.5;
 					padding-top: 13px;
+					@include mobileS{
+						font-size: 12px;
+					}
 					&:hover{
 						@extend .hover-blue;
 					};
@@ -44,15 +56,25 @@
 					line-height: 1.5;
 					letter-spacing: 0.02em;
 					padding-top: 5px;
+					@include mobileS{
+						font-size: 11px;
+					}
 				}
 			}
 		}
 	}
 	.history-main{
-		.event-economic{
+		.event-main-history{
 			background-color: $color-light-0;
 			margin-left: 10px;
 			padding: 25px 35px 45px 25px;
+			@include tablet {
+				margin-left: 0;
+			}
+			@include mobileL {
+				margin: 10px;
+                padding: 10px 10px 40px;
+			}
 			.event-date{
 				h6{
 					color: $color-accent-dark;

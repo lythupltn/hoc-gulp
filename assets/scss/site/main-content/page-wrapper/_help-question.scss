@@ -1,5 +1,8 @@
 .help-question {
 	margin: 25px ;
+	@include tablet {
+	    display: none;
+	}
 	.question-item{
 		background-color: $color-light-0;
 		border-top: 5px solid #121821 ;

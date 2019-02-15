@@ -14,7 +14,11 @@
 # vendors
 # Media
 --------------------------------------------------------------*/
+@import "base/base";
 @import "variables-site/variables-site";
+/* mixins */
+
+@import "mixins/utilities";
 
 /* Elements */
 
@@ -36,6 +40,3 @@
 
 @import "vendors/vendors";
 
-/* mixins */
-
-@import "mixins/utilities";

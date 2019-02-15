@@ -1,6 +1,9 @@
 .tag-trending{
 	background-color: $color-dark-2; 
 	margin: 10px 0px 10px 25px;
+	@include mobileL{
+		margin: 5px 3px;
+	};
 	h3{
 	 	padding: 8px;
 	 	color: $color-accent-light;

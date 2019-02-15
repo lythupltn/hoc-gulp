@@ -1,19 +1,12 @@
-html {
-	box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-	box-sizing: inherit;
-}
-
 body {
 	font-family: 'Roboto',sans-serif;	
 	color: $color__body;
 	line-height: 1.25;
 	background-color: #f7f7f7;
 }
-
+div{
+	overflow: hidden;
+}
 a {
 	color: $color__link;
 }

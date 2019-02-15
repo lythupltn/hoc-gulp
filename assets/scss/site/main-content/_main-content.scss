@@ -2,6 +2,9 @@
 	background-color: #f7f7f7; 
 	.empty-space{
 		padding: 15px 0;
+		@include tablet {
+		    display: none;
+		}
 		&:before{
 			content: "";
 			width: 320px;

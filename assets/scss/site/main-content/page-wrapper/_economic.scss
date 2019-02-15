@@ -2,6 +2,9 @@
 	padding: 25px 0px 25px 25px;
 	overflow: hidden;
 	display: block;
+	@include mobileL{
+		padding: 5px 3px;
+	}
 	.economic-sidebar{
 		.economic-item{
 			background-color: $color-light-0;
@@ -22,7 +25,6 @@
 						&:hover{
 							@extend .hover-blue;
 						};
-						
 					}
 					p:last-child{
 						@extend .time-style;

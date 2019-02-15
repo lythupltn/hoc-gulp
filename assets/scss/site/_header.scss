@@ -1,4 +1,3 @@
-
 .header-top{
 	background-color:$bgr-top;
 	font-size: 14px;
@@ -6,18 +5,73 @@
 	text-transform: uppercase;
 	line-height: 50px;
 	display: block;
-	.menu-header-top{
-		ul{
-			display: flex;
-			justify-content: space-around;
-			li{
-				padding:0 15px;
+	padding-top: 5px;
+	@include laptop {
+	    font-size: 12px;
+	}
+	@include tabletL {
+	    font-size: 11px;
+	}
+	.repon-head{
+		@include tablet {
+		    display: flex;
+	        font-size: 14px;
+	        padding-top: 15px;
+		} // caanf chinh sua lai doan nay 
+		@include mobileL {
+		    font-size: 10px;
+		    padding-bottom: 5px;
+	
+		}
+		.column.is-1.is-3-mobile{
+			@include tablet {
+                padding-bottom: 0;
 			}
 		}
-	}
-	.search-top {
-	    padding-top: 5px;
-	    display: block;
+		.column.is-4.is-9-mobile.repon-menu-head{
+			@include laptop {
+			    display: block;
+                padding-bottom: 0;
+			}
+			@include tablet {
+			    display: flex;
+	            align-items: center;
+	            padding-bottom: 0;
+			}
+			.menu-header-top{
+				@include tablet {
+				    margin-left: auto;
+				    justify-content: space-around;
+				}
+				ul{
+					display: flex;
+					justify-content: space-around;
+					li{
+						padding: 0 15px;
+						@include tablet {
+						    padding: 0 25px;
+						}
+						@include mobileS {
+						    padding: 0 8px;
+						}
+						@include mobileL {
+						    padding: 0 10px;
+						}
+						
+					}
+				}
+			}
+		}
+		.search-top {
+		    padding: 5px 5px 0 0;
+		    display: block;
+			@include tabletL {
+			    padding: 5px;
+			}
+			@include mobileL {
+			    display: none;
+			}
+		}
 	}	
 }
 /* =============header-midium================== */
@@ -27,14 +81,29 @@
 	font-weight: 300;
 	text-transform: capitalize;
 	display: block;
+	@include laptop {
+	    font-size: 11px;
+	}
+	@include tablet {
+	    display: none;
+	}
+	@include mobileL {
+	    font-size: 10px;
+	}
 	.menu-midium-top{
 		display: flex;
 		ul{
-		display: flex;
+			display: flex;
+			@include mobileL {
+			    justify-content: center;
+			}
 			li{
 				padding:15px;
 				i{
 					padding-right: 5px;
+					@include mobileL {
+					    padding-right: 2px;
+					}
 				}	
 			}
 		}
@@ -43,6 +112,9 @@
 			align-items: center;
 			padding-left: 30px;
 			color: $color-light-2;
+			@include mobileL {
+			    display: none;
+			}
 			i{
 				font-size: 20px;
 				padding-right: 5px;
@@ -52,5 +124,13 @@
 }
 .menu-mobile {
     display: none;
-
+    @include mobileL {
+	    display: block;
+        z-index: 8;
+        font-size: 15px;
+        text-align: center;
+        color: #39F1E9;
+        background-color: #262e40;
+        cursor: pointer;
+	}
 }

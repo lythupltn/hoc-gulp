@@ -1,3 +1,20 @@
+$buttonConfig: 'save' 50px, 'cancel' 50px, 'help' 100px;
+
+@each $tuple in $buttonConfig {
+    .button-#{nth($tuple, 1)} {
+        width: nth($tuple, 2);
+    }
+			   /*  .button-save {
+   				  		width: 50px;
+   					}
+   					.button-cancel {
+   				 		 width: 50px;
+   					}
+   					.button-help {
+   				  		width: 100px;
+   					} 
+   					đây là css output*/
+} 
 .btn-view-all{
 	display: flex;
 	justify-content: center;

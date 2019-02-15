@@ -1,19 +1,28 @@
-.footer-section{
+.footer-home{
 	.top-footer{
 		background-color: #151d28;
 		padding: 0 10px;
 		ul{
 			display: flex;
+			@include mobileL {
+				display: block;
+			}
 			li{
 				padding:20px;
+				@include mobileL {
+					list-style: none;
+	                padding: 0;
+	                text-align: center;
+				};
 				a{
 					font-weight: 700;
 					font-size: 14px;
 					line-height: 24px;
 					text-transform: uppercase;
-
+					@include mobileL {
+						font-size: 13px;
+					};
 				}	
-				
 			}
 			li:first-child{
 				padding-left: 0;

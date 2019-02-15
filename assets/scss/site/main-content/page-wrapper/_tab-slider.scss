@@ -1,12 +1,18 @@
 .tab-slider{
 	padding-top:50px;
 	background-color: #eeeeee;
+	@include mobileL{
+        padding: 0;
+	};
 	.tab-slider__discussion{
 		background-color: $color-light-0;
 		border-top: 5px solid #121821 ;
 		padding-bottom: 25px;
 		padding:10px 13px;
 		margin: 0 0 0 22px;
+		@include mobileL{
+			margin: 3px;
+		};
 		.discussion-item{
 			h3{
 				padding: 3px 0 15px;

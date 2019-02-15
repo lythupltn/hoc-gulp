@@ -2,28 +2,21 @@
 	display: none;
 }
 .owl-nav{
-	button.owl-prev{
-		position: absolute;
-	    left: 0;
-	    bottom: 50%;
-	    color: white;
-	    width: 20px;
-	    border: none;
-	    height: 50px;
-	    background-color: rgba(255, 255, 255,.3);
-	    z-index: 2;
-	    font-size: 20px;
+	button.owl-prev, button.owl-next{
+		position: absolute !important;
+	    bottom: 50% !important;
+	    color: white !important;
+	    width: 20px !important;
+	    border: none !important;
+	    height: 50px !important;
+	    background-color: rgba(255, 255, 255,.3) !important;
+	    z-index: 2 !important;
+	    font-size: 20px !important;
 	}
 	button.owl-next{
-		position: absolute;
 	    right: 0;
-	    bottom: 50%;
-	    color: white;
-	    width: 20px;
-	    border: none;
-	    height: 50px;
-	    background-color: rgba(255, 255, 255,.3);
-	    z-index: 2;
-	    font-size: 20px;
+	}
+	button.owl-prev{
+	    left: 0;
 	}
 }
