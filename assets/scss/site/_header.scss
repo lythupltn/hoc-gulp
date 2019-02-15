@@ -11,6 +11,7 @@
 	}
 	@include tabletL {
 	    font-size: 11px;
+	    line-height: 1.5;
 	}
 	.repon-head{
 		@include tablet {
@@ -20,12 +21,10 @@
 		} // caanf chinh sua lai doan nay 
 		@include mobileL {
 		    font-size: 10px;
-		    padding-bottom: 5px;
-	
 		}
 		.column.is-1.is-3-mobile{
 			@include tablet {
-                padding-bottom: 0;
+                padding: 0;
 			}
 		}
 		.column.is-4.is-9-mobile.repon-menu-head{
@@ -36,7 +35,7 @@
 			@include tablet {
 			    display: flex;
 	            align-items: center;
-	            padding-bottom: 0;
+	            padding: 0 10px 0 0;
 			}
 			.menu-header-top{
 				@include tablet {
