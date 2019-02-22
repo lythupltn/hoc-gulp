@@ -1,8 +1,7 @@
 .history{
-	overflow: hidden;
 	display: inline-block;
 	width: 100%;
-	padding: 35px 0px 35px 35px;
+	padding-top: 30px;
 	@include mobileL {
 	    padding: 10px 3px;
 	}
@@ -10,7 +9,6 @@
 		background-color: $color-light-0;
 		padding: 15px;
 		border-top: 6px solid #121821 ;
-		margin-right: 15px;
 		font-size: 12px;
 		h3{
 			border-bottom: 1px solid $color-light-2;
@@ -66,7 +64,6 @@
 	.history-main{
 		.event-main-history{
 			background-color: $color-light-0;
-			margin-left: 10px;
 			padding: 25px 35px 45px 25px;
 			@include tablet {
 				margin-left: 0;

@@ -1,95 +1,10 @@
-.banner{
-	background-color: $color-dark-2;
-	.banner-img{
-		display: flex;
-		img{
-			width: 100%;
-			height: auto;
-		}
-		@include mobileL{
-			display: none;
-		}
+.banner-img{
+	display: flex;
+	img{
+		width: 100%;
+		height: auto;
 	}
-	.banner-newsletter {
-		background-color: $color-dark-1;
-		.banner-newsletter-item{
-			margin: 0 3px;
-			.newsletter-item__technology{
-				margin: 0 4px;
-				background-color: #151d28;
-				padding: 0;
-				a{
-					text-transform: capitalize;
-					font-size: 20px;
-					line-height: 26px;
-					color: $color-light-0;
-					@include mobileL{
-						font-size: 14px;
-						line-height: 16px;
-					}
-					&:hover{
-						color: $color-accent-light;
-					}
-					h3{
-						text-transform: capitalize;
-						font-weght: 600;
-						letter-spacing: -0.001em;
-						padding:0 0 0 25px;
-						@include mobileL{
-							padding: 5px 20px 0;
-						};
-					}
-					p{
-						padding:0 0 20px 25px;
-						color: $color-accent-dark;
-						font-weight: 700;
-						font-size: 13px;
-						margin-top: 12px;
-						text-transform: capitalize;
-						@include mobileL{
-							font-size: 12px;
-						};
-					}
-					span{
-						color: $color-light-2;
-						font-weight: 300;
-						&:before{
-							content: "-";
-							color: $color-light-2;
-						}
-					}
-				}
-			}
-		}
-		.banner-newsletter-item.banner-newsletter-item-bt{
-			margin: 0px;
-			padding: 20px 20px 0 20px;	
-			@include mobileL{
-				padding: 20px 5px 0 5px;
-			}
-			.newsletter-item__technology{
-				margin: 10px;
-				background-color: transparent;
-				a{
-					font-size: 17px;
-					@include mobileL{
-						font-size: 14px;
-					}					
-					h3{
-						padding:0;
-						@include mobileL{
-							padding: 5px 15px 0;
-						}
-					}
-					p{
-						padding:0 0 20px 0px;
-						@include mobileL{
-							padding: 0 15px 20px;
-						}
-					}
-				}
-				
-			}			
-		}
-	}	
+	@include mobileL{
+		display: none;
+	}
 }

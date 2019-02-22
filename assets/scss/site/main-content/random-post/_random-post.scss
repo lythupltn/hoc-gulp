@@ -1,0 +1,93 @@
+.random-post {
+	background-color: $color-dark-2;
+	.random-post-item{
+		margin: 0 3px;
+		.post__item-right{
+			padding-right: 5px;
+		}
+		.post__item-left{
+			padding-left: 5px;
+		}
+		.post__item{
+			// background-color: $color-dark-1;
+			// margin: 0 4px;
+			// padding: 0;
+			a{
+				text-transform: capitalize;
+				font-size: 20px;
+				line-height: 26px;
+				color: $color-light-0;
+				@include mobileL{
+					font-size: 14px;
+					line-height: 16px;
+				}
+				&:hover{
+					color: $color-accent-light;
+				}
+				.random-content{
+					padding-left: 25px;
+					background-color: #151d28;
+					h3{
+						text-transform: capitalize;
+						font-weght: 600;
+						letter-spacing: -0.001em;
+						@include mobileL{
+							padding: 5px 20px 0;
+						};
+					}
+					p{
+						padding: 12px 0 20px;
+						color: $color-accent-dark;
+						font-weight: 700;
+						font-size: 13px;
+						text-transform: capitalize;
+						@include mobileL{
+							font-size: 12px;
+						};
+					}
+					span{
+						color: $color-light-2;
+						font-weight: 300;
+						&:before{
+							content: "-";
+							color: $color-light-2;
+						}
+					}
+				}
+			}
+		}
+	}
+	.random-post-item.random-post-item-bt{
+		margin: 0px;
+		padding: 20px 20px 0 20px;	
+		@include mobileL{
+			padding: 20px 5px 0 5px;
+		}
+		.post__item{
+			background-color: transparent;
+			a{
+				font-size: 17px;
+				@include mobileL{
+					font-size: 14px;
+				}
+				.random-content{
+					padding-left: 0;	
+						background-color: transparent;				
+					h3{
+						padding:0;
+						@include mobileL{
+							padding: 5px 15px 0;
+						}
+					}
+					p{
+						padding:0 0 20px 0px;
+						@include mobileL{
+							padding: 0 15px 20px;
+						}
+					}
+				}
+			}
+			
+		}			
+	}
+}	

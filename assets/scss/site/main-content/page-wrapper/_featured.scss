@@ -1,13 +1,14 @@
 .featured {
-	overflow: hidden;
 	background-color: #eeeeee;
+	overflow: hidden;
 	.featured-sidebar{
-		padding: 35px 25px 0px 35px;
 		@include mobileL{
 			padding: 35px 15px 0px 15px;
 		}
+		.featured-sidebar__app{
+			padding: 25px 0;
+		}
 		.featured-sidebar-body{
-			margin-top: 20px;
 			background-color: $color-light-0;
 			padding:0 12px;
 			border-top: 6px solid $color-dark-0;
@@ -16,31 +17,27 @@
 			h3{
 				border-bottom: 1px solid $color-light-2;
 				padding: 15px 0;
-				margin-bottom: 12px;
 				a{
 					color: $color-dark-0;
 				}
 			}
-			.featured-sidebar-item{
-				padding: 14px 25px;
-				@include tablet {
-				    height: auto;
-				}
-				img{
-					height: 70px;
-				}
-				.item-content{
-					.cd-title{
-						color: $color-dark-0;
-						font-weight: 700;
-						font-size: 15px;
-						&:hover{
-							@extend .hover-blue;
-						};
-					}
-					.cd-tag, .cd-info{
-						font-size: 14px;
-						color: $color-light-2;
+
+			.featured-sidebar-content{
+				padding-top: 10px;
+				.featured-sidebar-item{
+					.item-content{
+						.cd-title{
+							color: $color-dark-0;
+							font-weight: 700;
+							font-size: 15px;
+							&:hover{
+								@extend .hover-blue;
+							};
+						}
+						.cd-tag, .cd-info{
+							font-size: 14px;
+							color: $color-light-2;
+						}
 					}
 				}
 			}
@@ -49,7 +46,7 @@
 	.featured-main{	
 		.featured-main-box{
 			background-color: $color-light-0;
-			padding: 25px;
+			padding: 0 25px 25px;
 			color: $color-dark-0;
 			@include mobileL{
 				margin: 0 15px;
@@ -60,7 +57,7 @@
 					padding-bottom: 10px;
 				};
 				h3{
-					padding-bottom: 15px;
+					padding: 15px 0;
 					border-bottom: 1px solid $color-light-2;
 					color: $color-dark-0;
 				}
