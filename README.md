@@ -1,1 +1,1 @@
-This is project read sass by gulp
+This is project learn sass and gulp
