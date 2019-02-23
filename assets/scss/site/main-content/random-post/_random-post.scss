@@ -1,22 +1,33 @@
 .random-post {
 	background-color: $color-dark-2;
 	.random-post-item{
+		overflow: hidden;
 		margin: 0 3px;
 		.post__item-right{
 			padding-right: 5px;
+			padding-bottom: 0;
+			@include mobileL{
+				padding-left: 19px;
+			};
 		}
 		.post__item-left{
 			padding-left: 5px;
+			padding-bottom: 0;
+			@include mobileL{
+				padding-left: 19px;
+			};
 		}
 		.post__item{
 			// background-color: $color-dark-1;
 			// margin: 0 4px;
 			// padding: 0;
+			overflow: hidden;
 			a{
 				text-transform: capitalize;
 				font-size: 20px;
 				line-height: 26px;
 				color: $color-light-0;
+				overflow: hidden;
 				@include mobileL{
 					font-size: 14px;
 					line-height: 16px;
@@ -25,14 +36,20 @@
 					color: $color-accent-light;
 				}
 				.random-content{
-					padding-left: 25px;
-					background-color: #151d28;
+					padding: 0 25px 20px;
+					@include tabletL{
+						padding-bottom: 0;
+						padding-left: 30px;
+					};
+					@include mobileL{
+						padding: 10px;
+					};
 					h3{
 						text-transform: capitalize;
 						font-weght: 600;
 						letter-spacing: -0.001em;
 						@include mobileL{
-							padding: 5px 20px 0;
+							padding: 5px 0px 0 ;
 						};
 					}
 					p{
@@ -61,7 +78,7 @@
 		margin: 0px;
 		padding: 20px 20px 0 20px;	
 		@include mobileL{
-			padding: 20px 5px 0 5px;
+			padding: 10px 3px 0 10px;
 		}
 		.post__item{
 			background-color: transparent;
@@ -72,17 +89,20 @@
 				}
 				.random-content{
 					padding-left: 0;	
-						background-color: transparent;				
+					background-color: transparent;
+					@include mobileL{
+						padding: 0px 10px 10px;
+					}				
 					h3{
 						padding:0;
 						@include mobileL{
-							padding: 5px 15px 0;
+							padding: 10px 0;
 						}
 					}
 					p{
 						padding:0 0 20px 0px;
 						@include mobileL{
-							padding: 0 15px 20px;
+							padding: 0;
 						}
 					}
 				}

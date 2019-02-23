@@ -3,39 +3,39 @@
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	line-height: 50px;
 	display: block;
-	padding-top: 5px;
+	padding: 10px 0;
 	@include laptop {
 	    font-size: 12px;
 	}
 	@include tabletL {
 	    font-size: 11px;
-	    line-height: 1.5;
 	}
 	.repon-head{
+		display: flex;
+		align-items: center;
 		@include tablet {
 		    display: flex;
-	        font-size: 14px;
-	        padding-top: 15px;
-		} // caanf chinh sua lai doan nay 
+	        font-size: 14px;  
+		}
 		@include mobileL {
 		    font-size: 10px;
 		}
-		.column.is-1.is-3-mobile{
+		.repon-logo-head{
+			align-items: center;
+			display: flex;
 			@include tablet {
-                padding: 0;
+               
 			}
 		}
-		.column.is-4.is-9-mobile.repon-menu-head{
+		.repon-menu-head{
 			@include laptop {
-			    display: block;
-                padding-bottom: 0;
+			   
 			}
 			@include tablet {
 			    display: flex;
 	            align-items: center;
-	            padding: 0 10px 0 0;
+	           
 			}
 			.menu-header-top{
 				@include tablet {
@@ -46,7 +46,7 @@
 					display: flex;
 					justify-content: space-around;
 					li{
-						padding: 0 15px;
+						// padding: 0 15px;
 						@include tablet {
 						    padding: 0 25px;
 						}
@@ -61,14 +61,20 @@
 				}
 			}
 		}
-		.search-top {
-		    padding: 5px 5px 0 0;
-		    display: block;
-			@include tabletL {
-			    padding: 5px;
-			}
-			@include mobileL {
-			    display: none;
+		.repon-search-head{
+			display: flex;
+			align-items: center;
+			.search-top {
+			    display: block;
+			    width: 100%;
+				@include tabletL {
+					display: block;
+				    padding: 10px 5px 0 21px;
+				}
+				@include mobileL {
+				    display: none;
+				    padding: 10px 5px 0 11px;
+				}
 			}
 		}
 	}	

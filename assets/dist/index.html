@@ -8,11 +8,11 @@
 	<title>gulp is pefect</title>
 </head>
 <body>
-	<header class="header">
+	<header class="header-home">
 		<div class="header-top">
 			<div class="container">
 				<div class="columns repon-head is-multiline">
-					<div class="column is-1 is-3-mobile">
+					<div class="column is-1 is-3-mobile repon-logo-head">
 						<div class="logo-top">
 							<img src="images/logo.png" alt="logo">
 						</div>
@@ -27,7 +27,7 @@
 							</ul>
 						</div>
 					</div>				
-					<div class="column is-7 is-12-mobile">
+					<div class="column is-7 is-12-mobile repon-search-head">
 						<div class="search-top" id="search-top">
 							<div class="control has-icons-left has-icons-right search-field">
 								<input class="input is-medium" type="text" placeholder="gõ những gì bạn cần tìm..." v-model="search" /><span class="icon is-medium is-right"><i class="fa fa-search"></i></span>
@@ -42,21 +42,17 @@
 		</div>
 		<div class="header-midium" id="header-midium">
 			<div class="container">
-				<div class="columns">			
-					<div class="column">
-						<div class="menu-midium-top">
-							<div class="menu-header-bt">
-								<ul>
-									<li><a href="#"><i class="fas fa-star"></i>diễn đàn</a></li>
-									<li><a href="#"><i class="fas fa-star"></i>camera</a></li>
-									<li><a href="#"><i class="fas fa-star"></i>xe</a></li>
-									<li><a href="#"><i class="fas fa-star"></i>nhật tảo</a></li>
-								</ul>
-							</div>
-							<span class="event"><i class="far fa-calendar-check"></i>không có sự kiện nào sắp diễn ra</span>
-						</div>
-					</div>				
-				</div> <!-- header-bottom-->
+				<div class="menu-midium-top">
+					<div class="menu-header-bt">
+						<ul>
+							<li><a href="#"><i class="fas fa-star"></i>diễn đàn</a></li>
+							<li><a href="#"><i class="fas fa-star"></i>camera</a></li>
+							<li><a href="#"><i class="fas fa-star"></i>xe</a></li>
+							<li><a href="#"><i class="fas fa-star"></i>nhật tảo</a></li>
+						</ul>
+					</div>
+					<span class="event"><i class="far fa-calendar-check"></i>không có sự kiện nào sắp diễn ra</span>
+				</div>		
 			</div>
 		</div>
 		<div class="menu-mobile" id="menu-mobile">
@@ -72,43 +68,47 @@
 			<section class="random-post">
 				<div class="random-post-item">
 					<div class="columns is-multiline">
-						<div class="column post-item__technology">
+						<div class="column post__item post__item-right">
 							<a href="#"><img src="images/4558972_Cover_WannaKicks_ung_dung_AR_Tinhte.jpg" alt="img new technology"/>
-								<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti expedita dolores sint autem ea.</h3>
-								<p>mileknowsme <span> 2 giờ trước</span></p>
+								<div class="random-content">
+									<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti expedita dolores sint autem ea.</h3>
+									<p>mileknowsme <span> 2 giờ trước</span></p>
+								</div>
 							</a>
 						</div>
-						<div class="column post-item__technology">
+						<div class="column post__item post__item-left">
 							<a href="#"><img src="images/4559256_Cover_FB.jpg" alt="img new technology"/>
-								<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, nobis reprehenderit laborum.</h3>
-								<p>p.w <span> 2 giờ trước</span></p>
+								<div class="random-content">
+									<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti expedita dolores sint autem ea.</h3>
+									<p>mileknowsme <span> 2 giờ trước</span></p>
+								</div>
 							</a>
 						</div>
 					</div>
 				</div>
 				<div class="random-post-item random-post-item-bt">
 					<div class="columns">
-						<div class="column post-item__technology">
+						<div class="column post__item">
 							<a href="#"><img src="images/4559194_Home_F1_2019_Xe_Tinhte.jpg" alt="img new technology"/>
 								<div class="random-content">
-									<h3>Những điều cần biết về mùa giải F1 2019 - nhiều thay đổi kỹ thuật và điều lệ mới</span></h3>
-									<p>mileknowsme <span>-2 giờ trước</span></p>
+									<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti expedita dolores sint autem ea.</h3>
+									<p>mileknowsme <span> 2 giờ trước</span></p>
 								</div>
 							</a>
 						</div>
-						<div class="column post-item__technology">
+						<div class="column post__item">
 							<a href="#"><img src="images/4559321_cover_home_google_apple_go_chung_chi.jpg" alt="img new technology"/>
 								<div class="random-content">
-									<h3>Những điều cần biết về mùa giải F1 2019 - nhiều thay đổi kỹ thuật và điều lệ mới</span></h3>
-									<p>mileknowsme <span>-2 giờ trước</span></p>
+									<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti expedita dolores sint autem ea.</h3>
+									<p>mileknowsme <span> 2 giờ trước</span></p>
 								</div>
 							</a>
 						</div>
-						<div class="column post-item__technology">
+						<div class="column post__item">
 							<a href="#"><img src="images/4559297_cover_anh_render_s10.jpg" alt="img new technology"/>
 								<div class="random-content">
-									<h3>Những điều cần biết về mùa giải F1 2019 - nhiều thay đổi kỹ thuật và điều lệ mới</span></h3>
-									<p>mileknowsme <span>-2 giờ trước</span></p>
+									<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti expedita dolores sint autem ea.</h3>
+									<p>mileknowsme <span> 2 giờ trước</span></p>
 								</div>
 							</a>
 						</div>
